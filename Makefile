@@ -4,10 +4,10 @@ clean:
 	rm -rf server
 
 build:
-	go build -o server main.go
+	go build -o server cmd/web/main.go
 
 serve:
-	go run main.go
+	go run cmd/web/main.go
 
 test:
 	echo "todo..."
